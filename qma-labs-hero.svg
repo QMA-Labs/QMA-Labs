@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520" role="img" aria-labelledby="title desc">
+  <title id="title">QMA Labs — Human-centered intelligence</title>
+  <desc id="desc">A dark violet and cyan technology landscape with a quantum-inspired Q symbol, connected nodes, and the QMA Labs vision.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050713"/>
+      <stop offset="0.48" stop-color="#0d1030"/>
+      <stop offset="1" stop-color="#071826"/>
+    </linearGradient>
+    <radialGradient id="violet" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity=".34"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset=".55" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse">
+      <path d="M52 0H0V52" fill="none" stroke="#9aa7ff" stroke-opacity=".055"/>
+    </pattern>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="520" rx="28" fill="url(#bg)"/>
+  <rect width="1600" height="520" rx="28" fill="url(#grid)"/>
+  <ellipse cx="390" cy="225" rx="420" ry="360" fill="url(#violet)"/>
+  <ellipse cx="1320" cy="260" rx="410" ry="330" fill="url(#cyan)"/>
+
+  <g opacity=".55" fill="none" stroke-linecap="round">
+    <path d="M50 392C250 312 300 465 510 365S830 245 1010 320s320 86 540-45" stroke="#8b5cf6" stroke-opacity=".32"/>
+    <path d="M20 422c250-18 310-175 530-95s330 37 490-62 315-49 540-142" stroke="#22d3ee" stroke-opacity=".25"/>
+    <path d="M150 104c190 85 295 17 430 94s275 30 430-50 320-40 470 36" stroke="#34d399" stroke-opacity=".18"/>
+  </g>
+
+  <g transform="translate(1240 260)" fill="none" filter="url(#glow)">
+    <circle r="128" stroke="#22d3ee" stroke-opacity=".22"/>
+    <ellipse rx="178" ry="68" transform="rotate(-18)" stroke="#8b5cf6" stroke-opacity=".55" stroke-width="2"/>
+    <ellipse rx="178" ry="68" transform="rotate(42)" stroke="#22d3ee" stroke-opacity=".42" stroke-width="2"/>
+    <circle r="72" stroke="url(#line)" stroke-width="10"/>
+    <path d="M37 48l51 51" stroke="#34d399" stroke-width="10"/>
+    <circle cx="-161" cy="50" r="7" fill="#8b5cf6"/>
+    <circle cx="126" cy="-105" r="7" fill="#22d3ee"/>
+    <circle cx="100" cy="127" r="7" fill="#34d399"/>
+  </g>
+
+  <g fill="#c7d2fe" opacity=".62">
+    <circle cx="1040" cy="116" r="3"/><circle cx="1112" cy="167" r="4"/><circle cx="992" cy="214" r="3"/>
+    <circle cx="1450" cy="102" r="3"/><circle cx="1505" cy="220" r="4"/><circle cx="1084" cy="404" r="3"/>
+  </g>
+  <g fill="none" stroke="#a5b4fc" stroke-opacity=".18">
+    <path d="M1040 116l72 51-120 47 92 190"/><path d="M1112 167l128 93 210-158 55 118"/>
+  </g>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="128" y="165" fill="#9ca3ff" font-size="22" font-weight="700" letter-spacing="8">INDEPENDENT AI BUILDER</text>
+    <text x="120" y="270" fill="#f8fafc" font-size="92" font-weight="800" letter-spacing="5">QMA LABS</text>
+    <rect x="124" y="305" width="520" height="4" rx="2" fill="url(#line)"/>
+    <text x="124" y="366" fill="#cbd5e1" font-size="30" font-weight="500" letter-spacing="1">Human-centered intelligence for the real world</text>
+    <text x="124" y="420" fill="#94a3b8" font-size="20" letter-spacing="4">PRIVATE  •  PRACTICAL  •  EXPLAINABLE  •  AMBITIOUS</text>
+  </g>
+
+  <rect x="1" y="1" width="1598" height="518" rx="27" fill="none" stroke="#a5b4fc" stroke-opacity=".13" stroke-width="2"/>
+</svg>
