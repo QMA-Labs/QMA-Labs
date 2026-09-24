@@ -1,71 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520" role="img" aria-labelledby="title desc">
-  <title id="title">QMA Labs — Human-centered intelligence</title>
-  <desc id="desc">A dark violet and cyan technology landscape with a quantum-inspired Q symbol, connected nodes, and the QMA Labs vision.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">QMA Labs — Quantum Machine Awareness</title>
+  <desc id="desc">Black and warm gold banner with a restrained blue orbit, matching the QMA visual identity.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#050713"/>
-      <stop offset="0.48" stop-color="#0d1030"/>
-      <stop offset="1" stop-color="#071826"/>
-    </linearGradient>
-    <radialGradient id="violet" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#8b5cf6" stop-opacity=".34"/>
-      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="cyan" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#22d3ee" stop-opacity=".28"/>
-      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#8b5cf6"/>
-      <stop offset=".55" stop-color="#22d3ee"/>
-      <stop offset="1" stop-color="#34d399"/>
-    </linearGradient>
-    <pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse">
-      <path d="M52 0H0V52" fill="none" stroke="#9aa7ff" stroke-opacity=".055"/>
-    </pattern>
-    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
-      <feGaussianBlur stdDeviation="8" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9c6832"/><stop offset="0.32" stop-color="#f7dbac"/><stop offset="0.58" stop-color="#b88142"/><stop offset="1" stop-color="#f5d6a1"/></linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#77a6c5"/><stop offset="1" stop-color="#cadce8"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#1a2330"/><stop offset="1" stop-color="#08090c"/></radialGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="11"/></filter>
   </defs>
-
-  <rect width="1600" height="520" rx="28" fill="url(#bg)"/>
-  <rect width="1600" height="520" rx="28" fill="url(#grid)"/>
-  <ellipse cx="390" cy="225" rx="420" ry="360" fill="url(#violet)"/>
-  <ellipse cx="1320" cy="260" rx="410" ry="330" fill="url(#cyan)"/>
-
-  <g opacity=".55" fill="none" stroke-linecap="round">
-    <path d="M50 392C250 312 300 465 510 365S830 245 1010 320s320 86 540-45" stroke="#8b5cf6" stroke-opacity=".32"/>
-    <path d="M20 422c250-18 310-175 530-95s330 37 490-62 315-49 540-142" stroke="#22d3ee" stroke-opacity=".25"/>
-    <path d="M150 104c190 85 295 17 430 94s275 30 430-50 320-40 470 36" stroke="#34d399" stroke-opacity=".18"/>
-  </g>
-
-  <g transform="translate(1240 260)" fill="none" filter="url(#glow)">
-    <circle r="128" stroke="#22d3ee" stroke-opacity=".22"/>
-    <ellipse rx="178" ry="68" transform="rotate(-18)" stroke="#8b5cf6" stroke-opacity=".55" stroke-width="2"/>
-    <ellipse rx="178" ry="68" transform="rotate(42)" stroke="#22d3ee" stroke-opacity=".42" stroke-width="2"/>
-    <circle r="72" stroke="url(#line)" stroke-width="10"/>
-    <path d="M37 48l51 51" stroke="#34d399" stroke-width="10"/>
-    <circle cx="-161" cy="50" r="7" fill="#8b5cf6"/>
-    <circle cx="126" cy="-105" r="7" fill="#22d3ee"/>
-    <circle cx="100" cy="127" r="7" fill="#34d399"/>
-  </g>
-
-  <g fill="#c7d2fe" opacity=".62">
-    <circle cx="1040" cy="116" r="3"/><circle cx="1112" cy="167" r="4"/><circle cx="992" cy="214" r="3"/>
-    <circle cx="1450" cy="102" r="3"/><circle cx="1505" cy="220" r="4"/><circle cx="1084" cy="404" r="3"/>
-  </g>
-  <g fill="none" stroke="#a5b4fc" stroke-opacity=".18">
-    <path d="M1040 116l72 51-120 47 92 190"/><path d="M1112 167l128 93 210-158 55 118"/>
-  </g>
-
-  <g font-family="Inter,Segoe UI,Arial,sans-serif">
-    <text x="128" y="165" fill="#9ca3ff" font-size="22" font-weight="700" letter-spacing="8">INDEPENDENT AI BUILDER</text>
-    <text x="120" y="270" fill="#f8fafc" font-size="92" font-weight="800" letter-spacing="5">QMA LABS</text>
-    <rect x="124" y="305" width="520" height="4" rx="2" fill="url(#line)"/>
-    <text x="124" y="366" fill="#cbd5e1" font-size="30" font-weight="500" letter-spacing="1">Human-centered intelligence for the real world</text>
-    <text x="124" y="420" fill="#94a3b8" font-size="20" letter-spacing="4">PRIVATE  •  PRACTICAL  •  EXPLAINABLE  •  AMBITIOUS</text>
-  </g>
-
-  <rect x="1" y="1" width="1598" height="518" rx="27" fill="none" stroke="#a5b4fc" stroke-opacity=".13" stroke-width="2"/>
+  <rect width="1200" height="390" rx="24" fill="url(#glow)"/>
+  <rect x="1" y="1" width="1198" height="388" rx="23" fill="none" stroke="#56412c" stroke-opacity=".65"/>
+  <path d="M50 46H1150M50 344H1150" stroke="#8b673e" stroke-opacity=".35"/>
+  <path d="M50 46v22m1100-22v22M50 344v-22m1100 22v-22" stroke="url(#gold)" stroke-width="2"/>
+  <circle cx="202" cy="194" r="106" fill="none" stroke="#aa7b43" stroke-opacity=".2"/>
+  <circle cx="202" cy="194" r="83" fill="none" stroke="url(#gold)" stroke-width="2" stroke-dasharray="340 180" transform="rotate(-30 202 194)"/>
+  <ellipse cx="202" cy="194" rx="135" ry="46" fill="none" stroke="url(#blue)" stroke-opacity=".55" transform="rotate(-20 202 194)"/>
+  <ellipse cx="202" cy="194" rx="135" ry="46" fill="none" stroke="url(#gold)" stroke-opacity=".48" transform="rotate(26 202 194)"/>
+  <circle cx="307" cy="146" r="5" fill="#bfd8e8"/><circle cx="93" cy="216" r="4" fill="#edc991"/>
+  <circle cx="202" cy="194" r="48" fill="#c9954e" opacity=".12" filter="url(#soft)"/>
+  <path d="M169 219v-58l33 37 33-37v58" fill="none" stroke="url(#gold)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M202 198l30 29" stroke="url(#blue)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M372 88v214" stroke="#9d774b" stroke-opacity=".45"/>
+  <text x="415" y="133" fill="#d6b584" font-family="Segoe UI, Arial, sans-serif" font-size="15" letter-spacing="6">QUANTUM · MACHINE · AWARENESS</text>
+  <text x="410" y="212" fill="url(#gold)" font-family="Georgia, Cambria, serif" font-size="79" font-weight="bold" letter-spacing="8">QMA LABS</text>
+  <text x="415" y="261" fill="#dde4e8" font-family="Segoe UI, Arial, sans-serif" font-size="22" letter-spacing="1">Question deeply. Build carefully.</text>
+  <text x="415" y="294" fill="#8fa7b8" font-family="Segoe UI, Arial, sans-serif" font-size="17" letter-spacing="2">KEEP HUMANS IN COMMAND</text>
+  <circle cx="1089" cy="103" r="3" fill="#e9c58d"/><circle cx="1060" cy="283" r="2" fill="#9ebed0"/>
 </svg>
