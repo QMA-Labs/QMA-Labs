@@ -1,6 +1,6 @@
 <div align="center">
 
-![QMA Labs — Quantum Machine Awareness](./qma-labs-hero.svg)
+![QMA Labs — Quantum Machine Awareness](./qma-labs-hero.svg?v=2)
 
 ### Intelligence is not the answer. It is the quality of the questions we dare to ask.
 
